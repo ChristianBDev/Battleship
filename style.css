@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #818181;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 100px;
+}
+
+header h1 {
+  font-size: 48px;
+}
+
+button {
+  width: 50px;
+  height: 50px;
+  background-color: #2c68c2;
+}
+
+button:hover {
+  background-color: #474747;
+}
+
+footer {
+  text-align: center;
+}
+
+.board {
+  padding: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.board .grid {
+  padding: 5px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (auto)[10];
+      grid-template-columns: repeat(10, auto);
+  -ms-grid-rows: (auto)[10];
+      grid-template-rows: repeat(10, auto);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.board .columns {
+  font-size: 24px;
+  -webkit-writing-mode: horizontal-tb;
+      -ms-writing-mode: lr-tb;
+          writing-mode: horizontal-tb;
+  text-indent: 30px;
+  letter-spacing: 15px;
+  text-align: justify;
+}
+
+.board .rows {
+  font-size: 24px;
+  -webkit-writing-mode: vertical-lr;
+      -ms-writing-mode: tb-lr;
+          writing-mode: vertical-lr;
+  text-orientation: upright;
+  text-indent: 45px;
+  letter-spacing: -1px;
+}
+/*# sourceMappingURL=style.css.map */
